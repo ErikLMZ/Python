@@ -1,0 +1,6 @@
+git status
+git add .
+git commeti -m "algum comentário"
+git push
+git log --oneline
+git revert (voltar o código da ultima alteração)
