@@ -1,7 +1,9 @@
 import random
 numeros = [0,1,2,3,4,5]
 escolhido = random.choice(numeros)
-print('Advinhe o número')
+print('-=-' *18)
+print('Irei pensar em um número entre 0 e 5, tente advinhar!')
+print('-=-' *18)
 numero = int(input('Escolha um número entre 0 e 5: '))
 if numero == escolhido:
     print('YOU WIN! você acertou')
