@@ -1,8 +1,8 @@
 casa = float(input('Informe o valor do imóvel: '))
 salario = float(input('Informe sua renda mensal: '))
-tempo = float(input('Informe o tempo de parcelamento: '))
+anos = float(input('Informe quantos anos de parcelamento: '))
 
-prestacao = casa / tempo
+prestacao = casa / (anos * 12)
 margem = (salario / 100) * 30
 
 if prestacao > margem:
