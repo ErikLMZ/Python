@@ -13,3 +13,5 @@ elif tipo == "2":
 elif tipo == "3":
     conversao = hex(numero)
     print('Seu número convertido para Hexadecimal fica: {}'.format(conversao[2:]))
+else:
+    print('Opção inválida!')
