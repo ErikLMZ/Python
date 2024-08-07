@@ -5,7 +5,6 @@ while True:
     except:
         print('Número Inválido, informe um número INTEIRO!')
 
-
 inicio = 1
 fim = 10
 for num in range(inicio, fim+1):
