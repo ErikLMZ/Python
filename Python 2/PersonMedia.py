@@ -45,4 +45,4 @@ for _ in range(3):
 
 
 media = statistics.mean(idade)
-print(f'A média das idades das pessoas informadas é {media:.2f}')
+print(f'A média das idades das pessoas informadas é {media}')
