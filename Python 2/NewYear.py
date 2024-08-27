@@ -1,8 +1,12 @@
-import time 
+import time
+import keyboard
+print('Pressione qualquer tecla para iniciar a contagem regressiva.')
+keyboard.wait('space') 
 
-iniciar = str(input('Iniciar a contagem regressiva? ')).strip().upper()
-if iniciar == 'SIM':
-    for contagem in range(10, 0, -1):
-        print(contagem)
-        time.sleep(1)
+
+for contagem in range(10, 0, -1):
+    print(contagem)
+    time.sleep(1)
+
 print('Feliz Ano Novo!!!')
+
